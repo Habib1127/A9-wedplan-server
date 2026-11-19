@@ -1,12 +1,10 @@
-<div align="center">
-WedPlan - Server
+<div align ="center" >
+## wedplan - server
 
-## Links
-
-- Live Website: ADD_LIVE_LINK
-- Client Repository: ADD_CLIENT_REPO_LINK
-- Server Repository: ADD_SERVER_REPO_LINK
-</div>
+ Live Website: ADD_LIVE_LINK
+ Client Repository: ADD_CLIENT_REPO_LINK
+ Server Repository: ADD_SERVER_REPO_LINK
+ </div>
 
 ## About
 Express.js API for WedPlan, a wedding planning platform with customer, vendor and admin roles.
@@ -82,7 +80,5 @@ npm run make-admin -- your-admin-email@example.com
 | Admin | /api/admin/overview, /users, /services, /transactions |
 | Stripe | POST /api/webhooks/stripe |
 
-## Deployment
 
-Deploy to Vercel (`vercel.json` included). Set all variables, and set `CLIENT_URL` to the live client URL.
 
