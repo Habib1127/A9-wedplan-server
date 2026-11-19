@@ -1,10 +1,11 @@
-<div align ="center" >
-## wedplan - server
-
- Live Website: ADD_LIVE_LINK
- Client Repository: ADD_CLIENT_REPO_LINK
- Server Repository: ADD_SERVER_REPO_LINK
- </div>
+<div align="center">
+  <h1><strong>WedPlan - Server</strong></h1>
+  <p>
+    <strong>Live Website:</strong> <a href="YOUR_LIVE_LINK">YOUR_LIVE_LINK</a><br>
+    <strong>Client Repository:</strong> <a href="YOUR_CLIENT_REPO_LINK">YOUR_CLIENT_REPO_LINK</a><br>
+    <strong>Server Repository:</strong> <a href="YOUR_SERVER_REPO_LINK">YOUR_SERVER_REPO_LINK</a>
+  </p>
+</div>
 
 ## About
 Express.js API for WedPlan, a wedding planning platform with customer, vendor and admin roles.
@@ -24,7 +25,12 @@ Express.js API for WedPlan, a wedding planning platform with customer, vendor an
 
 ## Technology Stack
 
-Node.js, Express.js, MongoDB (native driver), jose (JWT), Stripe, Zod.
+- Node.js
+- Express.js 
+- MongoDB (native driver)
+- jose (JWT) 
+- Stripe
+- Zod
 
 ## Collections
 
@@ -34,7 +40,7 @@ Node.js, Express.js, MongoDB (native driver), jose (JWT), Stripe, Zod.
 
 ```bash
 npm install
-cp .env.example .env
+cp .env
 ```
 
 | Variable | What it is |
@@ -79,6 +85,3 @@ npm run make-admin -- your-admin-email@example.com
 | Customer | /api/customer/bookings (create, list, overview, cancel) |
 | Admin | /api/admin/overview, /users, /services, /transactions |
 | Stripe | POST /api/webhooks/stripe |
-
-
-
