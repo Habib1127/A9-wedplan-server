@@ -1,9 +1,9 @@
 <div align="center">
   <h1><strong>WedPlan - Server</strong></h1>
   <p>
-    <strong>Live Website:</strong> <a href="YOUR_LIVE_LINK">YOUR_LIVE_LINK</a><br>
-    <strong>Client Repository:</strong> <a href="YOUR_CLIENT_REPO_LINK">YOUR_CLIENT_REPO_LINK</a><br>
-    <strong>Server Repository:</strong> <a href="YOUR_SERVER_REPO_LINK">YOUR_SERVER_REPO_LINK</a>
+    <strong>Live Website Link:</strong> <a href="https://a9-wedplan-client.vercel.app/">Click Here</a><br>
+    <strong>Client Repository:</strong> <a href="https://github.com/Habib1127/A9-wedplan-client">CLIENT_REPO_LINK</a><br>
+   
   </p>
 </div>
 
@@ -72,7 +72,7 @@ Copy the `whsec_...` value it prints into `STRIPE_WEBHOOK_SECRET`. In production
 Sign up on the client first, then:
 
 ```bash
-npm run make-admin -- your-admin-email@example.com
+npm run node --env-file=.env src/scripts/makeAdmin.js email@example.com 
 ```
 
 ## Main endpoints
